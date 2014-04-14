@@ -1,0 +1,18 @@
+@import url("sc-player-standard/colors-green.css"); /* switch here between 'blue', 'orange' and 'green' color-schemes */
+
+
+/* Smartphones and portrait tablets: vertical player */
+@import url("sc-player-standard/structure-vertical.css") (max-width : 767px);
+
+/* Landscape tablets and desktop: horizontal player */
+@import url("sc-player-standard/structure-horizontal.css") (min-width : 768px);
+
+
+/* ----------------- Media queries ----------------- */
+
+/* Desktop */
+@media (min-width: 1024px) {
+	.sc-player {
+		width: 50%;
+	}
+}/*end desktop */
