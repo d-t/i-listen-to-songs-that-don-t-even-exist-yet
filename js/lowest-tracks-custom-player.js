@@ -16,13 +16,7 @@
 const tracksLimit    = 200;
 const tracksPerPage  = 10;
 const playcountLimit = 10;
-const scClientIds = [
-                    '6f7b569e99581c40a56dcce6d96f3ddf',
-                    '81f4227fb3d13dc87085b4d35cb68ddc',
-                    '524b795760197f6633290ae20c8be43e',
-                    '08304d5655967fc83e504d4d2ff39208',
-                    '34bdc065dc486f0f651e93e39d01161d'
-                    ];
+const scClientIds = [/* List of SoundCloud client ids */];
 
 // Music genres
 var allGenres = [
